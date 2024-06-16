@@ -1,0 +1,90 @@
+/* HelpPage.css */
+
+.help-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-page h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .help-page p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .help-page h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  .help-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .help-page ul li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-page ul li strong {
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .help-page ul li p {
+    margin: 0;
+  }
+  
+  .help-page section {
+    margin-bottom: 40px;
+  }
+  
+  .help-page section:last-child {
+    margin-bottom: 0;
+  }
+  
+  .help-page .contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-page .contact-form input,
+  .help-page .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .help-page .contact-form button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .help-page .contact-form button:hover {
+    background-color: #00408d;
+  }

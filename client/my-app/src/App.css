@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*.login-form {
+  background: url("C:\Users\Shreyash\OneDrive\Desktop\simple-plain-background-qhd-1920x1080.jpg") no-repeat center center fixed;
+
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position:absolute;
+}
+
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #f5eeee;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.login-form div {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  background: transparent;
+  display: block;
+  margin-bottom: 8px;
+  color: #080202;
+  font-size: 0.9em;
+}
+
+.login-form input {
+  width: 45%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.login-form button {
+  width: 15%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.login-form button:active {
+  background-color: #004080;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+.login-form p {
+  text-align: center;
+  color: #ff4d4d;
+  font-size: 0.9em;
+}
+
+.login-form p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-form p a:hover {
+  text-decoration: underline;
+/* /*   */
+.login-container {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("C:\Users\Shreyash\OneDrive\Desktop\wp6753476.png") no-repeat center center fixed
+ 
+}
+
+
+
+.login-form {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  text-align: center;
+}
+
+.login-form h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  backdrop-filter: blur(5px);
+  outline: none;
+}
+
+input[type="email"]::placeholder, input[type="password"]::placeholder {
+  color: #eee;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.error-message {
+  color: #ff4444;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #e4e5f3;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(55, 74, 165);
+}
+
+
+

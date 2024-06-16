@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+.navbar.navbar.navbar-expand-lg{
+    background-color: burlywood;
+}
+
+.Navbar {
+    background-color: #282c31; /* Dark background */
+    padding: 0.5rem 1rem;
+}
+
+.navbar .navbar-brand {
+    color: #b12b2b; /* White text for brand */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+    color: #b04c4c; /* Lighter on hover */
+}
+
+.navbar .nav-link {
+    color: #1b1f3a; /* Light text */
+    margin-right: 1rem;
+}
+
+.navbar .nav-link:hover, 
+.navbar .nav-link.active {
+    color: #292323; /* White on hover or active */
+}
+
+.navbar .dropdown-menu {
+    background-color: #f4f6f8; /* Dark background */
+    border: 1px;
+    border-top-color: #292323;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar .dropdown-item {
+    color: #394fa4; /* Light text */
+}
+
+.navbar .dropdown-item:hover {
+    color: #fff; /* White on hover */
+    background-color: #3843bc; /* Darker background on hover */
+}
+
+.navbar .dropdown-divider {
+    border-top: 1px solid #1f1818;
+}
+
+.navbar .navbar-toggler {
+    border: 1px;
+    color: #fff; /* White toggle icon */
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3e%3cpath stroke="rgba%28255, 255, 255, 0.5%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e');
+}
+
+.navbar .form-control {
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.navbar .btn-outline-danger {
+    color: #fff; /* White text */
+    border-color: #dc3545; /* Bootstrap's danger color */
+    transition: background-color 0.3s ease;
+}
+
+.navbar .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff; /* White text on hover */
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+}
+.navbar .nav-link :disabled{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
